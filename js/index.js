@@ -1,5 +1,4 @@
 window.onload = function() {
-	generate_rev_config();
 	const urlParams = new URLSearchParams(window.location.search);
 	if(urlParams.get("url") != "" && urlParams.get("url") != undefined) {
 		window.location = binary_to_text(fuck_to_binary(urlParams.get("url")));

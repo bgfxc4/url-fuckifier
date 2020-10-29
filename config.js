@@ -6,15 +6,15 @@ var config = {
 	"00100": "idiot",
 	"00101": "bloodclaat",
 	"00110": "cock",
-	"00111": "bellend",
+	"00111": "shitass",
 	"01000": "knob",
 	"01001": "minge",
 	"01010": "prick",
-	"01011": "punani",
+	"01011": "kek",
 	"01100": "snatch",
 	"01101": "fanny",
 	"01110": "flaps",
-	"01111": "gash",
+	"01111": "urmom",
 	"10000": "pissed",	
 	"10001": "feck",
 	"10010": "balls",
@@ -35,3 +35,4 @@ var config = {
 	"1": "bloody",
 	"fill": "bullocks"
 }
+

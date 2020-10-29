@@ -1,5 +1,5 @@
-
 window.onload = function() {
+	generate_rev_config();
 	const urlParams = new URLSearchParams(window.location.search);
 	if(urlParams.get("url") != "" && urlParams.get("url") != undefined) {
 		window.location = binary_to_text(fuck_to_binary(urlParams.get("url")));
@@ -57,6 +57,7 @@ function fuck_to_binary(fuck) {
 		for (var j in config) {
 			if(config[j] == splitted[i]) {
 				binary += j;
+				break;
 			}
 		}
 	}
@@ -68,3 +69,4 @@ function binary_to_text(bin) {
 		return String.fromCharCode(parseInt(bin, 2))
     });
 }
+
